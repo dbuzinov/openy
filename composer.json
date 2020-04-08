@@ -151,6 +151,10 @@
                     "type": "zip"
                 }
             }
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/dbuzinov/openy_memberships"
         }
     ],
     "scripts": {
@@ -198,7 +202,8 @@
                 "1236098 - Notice: Undefined index in _color_rewrite_stylesheet()": "https://www.drupal.org/files/issues/undefined-index-in-_color_rewrite_stylesheet-1236098-37.patch",
                 "2484693 - Telephone Link field formatter InvalidArgumentException with 5 digits or fewer in the number": "https://www.drupal.org/files/issues/2484693-54.patch",
                 "2862702 - PrepareModulesEntityUninstallForm::formTitle does not exist": "https://www.drupal.org/files/issues/2862702-3.patch",
-                "2996114 - JSON:API Argument error": "https://www.drupal.org/files/issues/2020-02-11/2996114-124.patch"
+                "2996114 - JSON:API Argument error": "https://www.drupal.org/files/issues/2020-02-11/2996114-124.patch",
+                "3025372 - Impossible to filter for resources with an empty relationship object": "https://www.drupal.org/files/issues/2020-03-24/3025372-33.patch"
             },
             "drupal/crop": {
                 "3025005 - The Crop requirements is NOK is media_entity 8.x-2.0 installed via composer": "https://www.drupal.org/files/issues/2019-01-10/requirements-is-NOK-3025005-2.patch"
@@ -320,6 +325,6 @@
         "drupal/image_widget_crop": "^2.2",
         "drupal/geysir": "^1.1",
         "drupal/media_directories": "^1.0",
-        "openy/openy_memberships": "dev-master"
+        "openy/openy_memberships": "dev-promotions"
     }
 }
